@@ -33,3 +33,36 @@ get_max_profit(stock_prices) # Returns 6 (buying for $5 and selling for $11)
 ```
 
 *Note: No "shorting"—you need to buy before you can sell. Also, you can't buy and sell in the same time step—at least 1 minute has to pass.*
+
+### Solution
+
+| **Time Complexity** |  `O(n)` |
+|-------|-------------|
+I'm using python's `max()` function, which has this complexity. I needs to interate through the whole list to find the maximum value in it.
+
+| **Space Complexity** |  `O(1)` |
+|-------|-------------|
+Constant, since there is no change in the space that is being taken up by the algorithm.
+
+
+```python
+def get_max_profit(stock_prices):
+    
+    if len(stock_prices) < 2:
+        raise Exception('Not enough data in stock prices list')
+    
+    max_price = max(stock_prices)
+    # Pick the max value furthest to the left if there is more than one
+    max_price_index = max([i for i, price in enumerate(stock_prices) if price == max_price])
+    
+    # If the max price is the first in the list
+    if max_price_index == 0:
+        return max(stock_prices[max_price_index+1:]) - max_price
+    
+    # Look for the cheapest the stock was previous to the time it was at its max
+    min_price = max_price
+    for price in stock_prices[:max_price_index]:
+        if price < min_price:
+            min_price = price
+    return max_price - min_price
+```
