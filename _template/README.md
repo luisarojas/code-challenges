@@ -16,9 +16,11 @@ $ make test
 
 ### Problem
 
-`details`
+**Instructions**
 
-**Example:**
+`instructions`
+
+**Example**
 
 `examples`
 
@@ -32,4 +34,6 @@ $ make test
 |-------|-------------|
 `explanation`
 
-`code`
+```python
+code
+```
