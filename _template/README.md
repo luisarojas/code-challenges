@@ -40,7 +40,7 @@ $ make test
 
 | **Space Complexity** |  `[complexity]` |
 |-------|-------------|
-`[explanation[`
+`[explanation]`
 
 ```python
 [code]
