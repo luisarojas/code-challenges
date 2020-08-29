@@ -1,4 +1,12 @@
-# Apple Stocks
+# <p align="center">Apple Stocks</p>
+
+<p align="center">
+	    <a href="#execution">Execution</a>
+    &nbsp; • &nbsp;
+    <a href="#problem">Problem</a>
+    &nbsp; • &nbsp;
+    <a href="#solution">Solution</a>
+</p>
 
 ### Execution
 
@@ -16,6 +24,8 @@ $ make test
 
 ### Problem
 
+**Description**
+
 First, I wanna know how much money I could have made yesterday if I'd been trading Apple stocks all day.
 
 So I grabbed Apple's stock prices from yesterday and put them in a list called stock_prices, where:
@@ -25,7 +35,7 @@ So I grabbed Apple's stock prices from yesterday and put them in a list called s
 
 Write an efficient function that takes stock_prices and returns the best profit I could have made from one purchase and one sale of one share of Apple stock yesterday.
 
-**Example:**
+**Examples**
 
 ```python
 stock_prices = [10, 7, 5, 8, 11, 9]

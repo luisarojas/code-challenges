@@ -1,4 +1,12 @@
-# Cafe Order Checker
+# <p align="center">Cafe Order Checker</p>
+
+<p align="center">
+	    <a href="#execution">Execution</a>
+    &nbsp; • &nbsp;
+    <a href="#problem">Problem</a>
+    &nbsp; • &nbsp;
+    <a href="#solution">Solution</a>
+</p>
 
 ### Execution
 
@@ -16,7 +24,7 @@ $ make test
 
 ### Problem
 
-**Instructions**
+**Description**
 
 My cake shop is so popular, I'm adding some tables and hiring wait staff so folks can have a cute sit-down cake-eating experience.
 

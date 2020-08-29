@@ -1,4 +1,12 @@
-# `title`
+# <p align="center">[title]</p>
+
+<p align="center">
+<a href="#execution">Execution</a>
+&nbsp; • &nbsp;
+<a href="#problem">Problem</a>
+&nbsp; • &nbsp;
+<a href="#solution">Solution</a>
+</p>
 
 ### Execution
 
@@ -16,24 +24,24 @@ $ make test
 
 ### Problem
 
-**Instructions**
+**Description**
 
-`instructions`
+`[description]`
 
-**Example**
+**Examples**
 
-`examples`
+`[examples]`
 
 ### Solution
 
-| **Time Complexity** |  `complexity` |
+| **Time Complexity** |  `[complexity]` |
 |-------|-------------|
-`explanation`
+`[explanation]`
 
-| **Space Complexity** |  `complexity` |
+| **Space Complexity** |  `[complexity]` |
 |-------|-------------|
-`explanation`
+`[explanation[`
 
 ```python
-code
+[code]
 ```

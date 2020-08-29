@@ -1,7 +1,34 @@
+# <p align="center">String Operators</p>
+
+<p align="center">
+	    <a href="#execution">Execution</a>
+    &nbsp; • &nbsp;
+    <a href="#problem">Problem</a>
+    &nbsp; • &nbsp;
+    <a href="#solution">Solution</a>
+</p>
+
+### Execution
+
+Run `solution.py`:
+
+```bash
+$ make
+```
+
+Test solution with `pytest`:
+
+```bash
+$ make test
+```
+
+
 ### Problem
+
+**Description**
 You are given a string of numbers and operators. Return all possible results from computing all different ways to group numbers and operators.
 
-### Examples
+**Examples**
 
 **Example 1**
 Input: `'2-1-1'`
@@ -14,8 +41,22 @@ Explanation:
 Input: `'2*3-4*5'`
 Output: `[-34, -14, -10, -10, 10]`
 Explanation:
-2*(3-(4*5)) = -34
-(2\*3)-(4*5) = -14
-(2*(3-4))*5 = -10
-2*((3-4)*5) = -10
-((2\*3)-4)*5 = 10
+2\*(3-(4\*5)) = -34
+(2\*3)-(4\*5) = -14
+(2\*(3-4))\*5 = -10
+2\*((3-4)\*5) = -10
+((2\*3)-4)\*5 = 10
+
+### Solution
+
+| **Time Complexity** |  `complexity` |
+|-------|-------------|
+`explanation`
+
+| **Space Complexity** |  `complexity` |
+|-------|-------------|
+`explanation`
+
+```python
+code
+```
